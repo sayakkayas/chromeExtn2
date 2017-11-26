@@ -1,0 +1,24 @@
+{
+	//Required
+	"name": "Muscle Memory Authenticator 2",
+	"version":"1.0",
+	"manifest_version": 2,
+
+	//Recommended
+	"description":"Authentication using muscle memory",
+	 "icons": { "16": "icon16.png",
+           "48": "icon48.png",
+          "128": "icon128.png" },
+     //Type of action
+     "browser_action": 
+       {
+       	"default_title":"MMA2 ",
+       	"default_popup": "popup.html",
+        "default_icon": "icon16.png"
+       },
+
+       //intent of application what will you access from the user
+       "permissions": [
+       	"http://*/*","https://*/*"
+       ]
+}
